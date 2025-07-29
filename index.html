@@ -8,7 +8,7 @@
     <title>Feugei | Flower Shop</title>
 </head>
 <body class="font-[Inter] bg-[#F5F8FF]">
-    <header class="max-w-[1140px] mx-auto mt-[30px]">
+    <header class="max-w-[1140px] mx-auto max-sm:mx-[20px] mt-[30px]">
         <nav class="flex justify-between items-center max-sm:mx-auto text-[#8987A1]">
             <img class="max-sm:max-h-[38px] max-sm:max-w-[63px]" src="assets/logo.png" alt="">
             <ul class="flex gap-12 text-lg">
@@ -28,8 +28,8 @@
             <img class="max-sm:hidden" src="assets/hero-flower.png" alt="">
         </div>
     </header>
-    <main>
-        <section class="max-w-[1140px] mx-auto mt-[120px] max-sm:mt-auto ">
+    <main class="">
+        <section class="max-w-[1140px] mx-auto mt-[120px] max-sm:mx-[20px] ">
             <div class="text-center ">
                 <h2 class="text-[50px] font-bold max-sm:text-[24px] "><span class="text-[#E95A08]">Our</span> Plants</h2>
                 <p class="text-[#00000080] text-[22px] max-w-[888px] mx-auto max-sm:text-[14px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-[1140px] mx-auto mt-[120px] ">
+        <section class="max-w-[1140px] mx-auto mt-[120px] max-sm:mx-[20px] ">
             <div class="flex justify-between max-sm:flex-col  max-sm:w-full items-center">
                 <div class="flex">
                     <img class="max-w-[540px] max-sm:w-full" src="assets/flower-store.png" alt="">
@@ -133,13 +133,13 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-[1140px] mx-auto mt-[120px]  ">
+        <section class="max-w-[1140px] mx-auto mt-[120px] max-sm:mx-[20px]  ">
             <div class="text-center">
                 <h2 class="text-[50px] max-sm:text-[24px] font-bold "><span class="text-[#E95A08]">Latest</span> Deals</h2>
                 <p class="text-[#00000080] text-[22px] max-sm:text-[14px] max-w-[888px] mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class=" flex  gap-x-[28px] max-sm:gap-x-[0px] max-sm:gap-y-[20px] max-sm:flex-col max-sm:w-full  mt-[120px]">
-                <div class="flex flex-col max-sm:hidden  gap-y-[25px]">
+            <div class=" flex  gap-x-[28px] max-sm:gap-y-[20px] max-sm:flex-col max-sm:w-full  mt-[120px]">
+                <div class="flex flex-col max-sm:hidden gap-y-[25px]">
                     <div class="relative">
                         <img class="brightness-60 rounded-[14px]" src="assets/deal-bloom.png" alt="">
                        
@@ -149,7 +149,7 @@
                         </div>
                         
                     </div>
-                    <div class="relative sm:hidden">
+                    <div class="relative">
                         <img class="brightness-60 rounded-[14px]" src="assets/deal-ana.png" alt="">
 
                         <div class="absolute max-w-[270px] mx-[22%] text-center my-[-120px]">
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative sm:hidden">
+                    <div class="relative sm:hidden">
                         <img class="brightness-60 rounded-[14px] w-full" src="assets/deal-bloom.png" alt="">
                        
                         <div class="absolute max-w-[270px] mx-[32%] text-center my-[-33%]">
@@ -167,7 +167,7 @@
                         </div>
                         
                     </div>
-                    <div class="relative">
+                    <div class="relative sm:hidden">
                         <img class="brightness-60 rounded-[14px] w-full" src="assets/deal-ana.png" alt="">
 
                         <div class="absolute max-w-[270px] mx-[33%] text-center my-[-33%]">
@@ -184,11 +184,11 @@
                 </div>
             </div>
         </section>
-        <section class="mx-auto mt-[120px] max-h-[533px] w-full bg-[url(/assets/news-letter-bg.png)] ">
-            <div class="flex flex-col justify-item-center items-center  gap-[23px] max-w-[830px] mx-auto py-[200px]">
-             <h1 class="text-[50px] font-bold font-[Noto Serif] text-[#ffffff] ">Join the colorful Bunch</h1>
-             <form action="" class="flex w-full h-[50px]">
-             <input type="text" placeholder="Write email" class="bg-white text-[#00000080] w-[644px]  px-[20px] py-[8px]">
+        <section class="mx-auto mt-[120px] sm:max-h-[533px] sm:w-full bg-[url(/assets/news-letter-bg.png)] ">
+            <div class="flex flex-col justify-item-center items-center  gap-[23px] max-sm:gap-[10px] max-w-[830px] mx-auto py-[200px]">
+             <h1 class="text-[50px] font-bold font-[Noto Serif] text-[#ffffff] max-sm:text-[20px]">Join the colorful Bunch</h1>
+             <form action="" class="flex sm:w-full  h-[50px]">
+             <input type="text" placeholder="Write email" class="bg-white text-[#00000080] sm:w-[644px]  px-[50px] py-[8px]">
              <input type="button" value="Subscribe" class="text-[16px] px-[50px] py-[8px] text-[#ffffff] font-semibold bg-[#E95A08]">
              </form>      
             </div>
@@ -197,9 +197,9 @@
     </main>
     <footer class="bg-[#FFFFFF80] w-full">
         <section class="max-w-[1120px] mx-auto text-[#6B7280] py-[50px]">
-            <div class="flex justify-between">
+            <div class="flex max-sm:flex-col max-sm:mx-[20px] max-sm:gap-[20px] justify-between">
                 <div class="flex flex-col max-w-[300px] justify-start">
-                    <img class="max-w-[135px] max-h-[82px]" src="assets/logo.png" alt="">
+                    <img class="max-w-[135px] max-h-[82px] max-sm:max-h-[109px] max-sm:max-w-[180px]" src="assets/logo.png" alt="">
                     <p class="text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
                 </div>
                 <div>
